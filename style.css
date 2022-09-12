@@ -1,0 +1,116 @@
+body{
+    background-color: hsl(185, 75%, 39%) ;
+    background-image: url(./images/bg-pattern-top.svg) ,url(./images/bg-pattern-bottom.svg);
+    background-position: -25rem -30rem , 40rem 15rem; 
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+
+.main{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   }
+.mainBody{
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5%;
+    align-items: center;}
+
+
+
+.tImgBox{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    justify-items: end;
+}
+.topImg{
+border-radius: 5%;
+border-end-end-radius: 0%;
+border-end-start-radius: 0% ;
+background-image: url(./images/bg-pattern-card.svg);
+height: 100%;
+width: 100%;
+
+}
+.iconImg{  
+    position:absolute;
+z-index: 1;   
+height: 70%;
+width: 30%;
+border-radius: 50%;
+border-color: white;
+border-width: 50%;
+border-style:solid;
+bottom:  -30%;
+}
+
+
+.headerText{
+    display: flex;
+    flex-direction: row;
+    width:50%;}
+
+.headText{
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 45%;
+    margin-right: 5%;
+    margin-left: 15%;
+    
+}
+.numText{
+    color: hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 45%;
+    }
+.subText{
+    color:hsl(227, 10%, 46%);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;}
+
+
+.midLine{
+    width: 99%;
+    height: 0px;
+    color: hsl(0, 0%, 59%);
+    }
+
+.bottomBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.bottomHeader{
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0%;
+    margin-left: 3%;
+    padding: 0% 5%;
+}
+.botttomTBox{ display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    }
+
+.bottomText{
+    color: hsl(227, 10%, 46%);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0%;
+    padding: 0% 5%;
+}
